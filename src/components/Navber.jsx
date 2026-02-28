@@ -3,7 +3,7 @@ import { FiShoppingBag, FiSearch, FiChevronDown } from "react-icons/fi";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { RiMenu3Fill } from "react-icons/ri"; // menu Icon
 import { RxCross2 } from "react-icons/rx";    // Close Icon
-
+import logo from '../../src/assets/images/navber_Logo.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between py-8">
         {/* Logo */}
         <div className="nav_logo max-w-48">
-          <img src="" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
 
         {/* Desktop Navigation Menu (hidden on mobile) */}

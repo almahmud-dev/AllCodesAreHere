@@ -40,7 +40,7 @@ const Faq = () => {
         setActiveId(activeId === id ? null : id);
     }
     return (
-        <div className="py-32">
+        <div>
             <div className="container">
                 <div className="flex flex-col md:flex-row lg:gap-10">
                     <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" className='w-full md:w-5/12 xl:w-4/12 xl:pr-24'>
